@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:hint="Enter your Username/Email "
+        android:textSize="22dp"
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+
+        />
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:hint="Enter ID"
+        android:textSize="22dp"
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+
+        />
+    <EditText
+        android:id="@+id/et_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:hint="Enter your First Name"
+        android:textSize="22dp"
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+
+        />
+    <EditText
+        android:id="@+id/et_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:hint="Enter your Last Name "
+        android:textSize="22dp"
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+
+        />
+    <EditText
+        android:id="@+id/et_marks"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:hint="Enter your marks "
+        android:textSize="22dp"
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+
+        />
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Insert"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        />
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="View Data"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Update Data"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Delete data"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
